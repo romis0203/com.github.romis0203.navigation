@@ -16,7 +16,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
 @Composable
-fun LoginScreen() {
+fun LoginScreen(modifier: Modifier) {
     Column(
         modifier = Modifier
             .fillMaxSize()
